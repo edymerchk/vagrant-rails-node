@@ -2,7 +2,7 @@
 
 sudo apt-get -y update
 
-sudo apt-get install -y git nodejs postgresql-9.3 postgresql-server-dev-9.3 libpq-dev
+sudo apt-get install -y git nodejs postgresql-9.1 libpq-dev
 
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
