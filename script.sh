@@ -3,7 +3,7 @@
 sudo apt-get -y update
 
 # Essentials
-sudo apt-get install -y build-essential zlib1g-dev curl git-core sqlite3 libsqlite3-dev python g++ make
+sudo apt-get install -y build-essential zlib1g-dev curl git-core sqlite3 libsqlite3-dev python g++ make python-software-properties
 
 # Node.js
 sudo add-apt-repository -y ppa:chris-lea/node.js
