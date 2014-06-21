@@ -2,16 +2,19 @@
 
 sudo apt-get -y update
 
-sudo apt-get install -y  python g++ make
+# Essentials
+sudo apt-get install -y build-essential zlib1g-dev curl git-core sqlite3 libsqlite3-dev python g++ make
 
 # Node.js
 sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y  nodejs
 
-sudo apt-get install -y git postgresql-9.1 libpq-dev
+#Posgrest
+sudo apt-get install -y postgresql-9.1 libpq-dev
 
 
+#Ruby
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
